@@ -1,0 +1,44 @@
+@import '../variables/sizes.scss';
+@import '../variables/colors.scss';
+
+.service-menu{
+  
+  &-menu__item-body{
+    flex: 1;
+  }
+  &-summary--hovered{
+    background-color: $color-bg-secondary !important;
+  }
+  &__item{
+		display: flex;
+		align-items: center;
+    height: 44px;
+    cursor: pointer;
+    &:hover{
+      background-color: $color-bg-secondary;
+    }
+  }
+  &__accordion-details.MuiAccordionDetails-root{
+    display: flex;
+    flex-flow: column;
+    padding: 12px  0px 12px 0px ;
+  }
+  &__title{
+    padding-left: 0.3rem;
+    font-size: 13px;
+    font-weight: 400;
+    color: $color-grey;
+  }
+  &__icon-wrapper.MuiBox-root{
+    width: 64px;
+    min-width: 64px;
+    display: flex;
+    justify-content: center;
+  }
+  &__item--chosen > &__body{
+    color: $color-bg-base;
+  }
+  &__item--chosen .icon {
+    fill: $color-bg-base;
+  }
+}

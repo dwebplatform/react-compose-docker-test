@@ -1,0 +1,17 @@
+{"type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Европа",
+          "color": "#FFF8F4"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+            ]
+          ]
+        }
+      }]
+    }

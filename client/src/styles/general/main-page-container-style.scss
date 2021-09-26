@@ -1,0 +1,10 @@
+.main-page-container{
+  position: relative;
+  
+  &__image{
+    position: absolute;
+    top: 0;
+    left: 22%;
+    z-index: -1;
+  }
+}

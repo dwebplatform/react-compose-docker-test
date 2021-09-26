@@ -1,0 +1,27 @@
+@import '../variables/sizes.scss';
+
+.main-component{
+  display: flex;
+  min-height: 90vh;
+  &__menu{
+    position: relative;
+    .slided-menu {
+      transition: 0.5s;
+      &--on{
+        left:0%;
+      }
+      position: absolute;
+      width: 100%;
+      top:0;
+      left:-100%;
+    }
+    
+    padding: $padding-lg;
+    flex-basis: 292px;
+  }
+  
+  &__service{
+    padding: $padding-md; 
+    flex:1;
+  }
+}

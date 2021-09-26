@@ -1,0 +1,13 @@
+@import '../variables/colors.scss';
+.icon{
+
+  &__base {
+    fill: $color-bg-base;
+  }
+  &__grey.MuiSvgIcon-root{
+    fill: $color-grey;
+  }
+  &__grey{
+    fill: $color-grey;
+  }
+}

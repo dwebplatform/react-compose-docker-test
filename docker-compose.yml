@@ -1,0 +1,62 @@
+version: "3.8"
+
+services:
+  nginx:
+    restart: always
+    build:
+      context: ./nginx
+    ports:
+      - "80:80"
+  mysqldb:
+    build:
+      context: ./mysqldb
+    restart: unless-stopped
+    environment:
+      - MYSQLDB_USER=root
+      - MYSQL_ROOT_PASSWORD=1234
+    ports:
+      - 3306:3306
+    expose:
+      - 3306
+  auth_api:
+    command: npm run start
+    restart: unless-stopped
+    build:
+      context: ./auth_api
+      dockerfile: Dockerfile
+  api:
+    build:
+      context: ./api
+      dockerfile: Dockerfile
+    command: npm run start
+    restart: unless-stopped
+    depends_on:
+      - postgres
+    # ports:
+    #   - "4000:4000"
+    environment:
+      - DATABASE_URL=postgres://todoapp@postgres/todos
+      - PORT=4000
+      - AUTH_URI=http://auth_api:5000/auth
+      - MYSQLDB_USER=root
+      - MYSQL_ROOT_PASSWORD=1234
+      - MYSQL_DATABASE=knex_db
+      - MYSQL_PORT=3306
+      
+  postgres:
+    image: postgres:9.6.2-alpine
+    environment:
+      - POSTGRES_USER=todoapp
+      - POSTGRES_DB=todos
+  client:
+    command: npm run start
+    restart: unless-stopped
+    stdin_open: true
+    tty: true
+    build:
+      context: ./client
+      dockerfile: Dockerfile
+    volumes:
+      - "./client/src:/app/src"
+    ports:
+      - "3000:3000"

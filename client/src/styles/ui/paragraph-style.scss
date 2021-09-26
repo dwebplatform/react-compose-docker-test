@@ -1,0 +1,21 @@
+@import '../variables/colors.scss';
+@import '../variables/sizes.scss';
+
+.ui-paragraph{
+  color: $color-typo-second;
+
+  &__small{
+   font-size: $size-sm; 
+  }
+  &__middle{
+    font-size: $size-md; 
+  }
+
+   &__large{
+    font-size: $size-lg; 
+   }
+   &__sub-large{
+    font-size: $size-sub-large; 
+   }
+
+}

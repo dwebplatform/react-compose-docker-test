@@ -1,0 +1,426 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Edge",
+        "id": 1,
+        "layerId": 143771121,
+        "length": ""
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [55.4893658, -11.3575684],
+          [57.6175518, -14.6680786]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Edge",
+        "id": 2,
+        "layerId": 143771121,
+        "length": "Ямал-Европа"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [57.6175518, -14.6680786],
+          [48.192735, -16.694924]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Edge",
+        "id": 3,
+        "layerId": 143771121,
+        "length": ""
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [48.192735, -16.694924],
+          [43.801241, -17.235411],
+          [41.3690306, -19.2622538]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Edge",
+        "id": 4,
+        "layerId": 143771121,
+        "length": ""
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [41.3690306, -19.2622538],
+          [39.5786518, -21.5255606]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Edge",
+        "id": 5,
+        "layerId": 143771121,
+        "length": ""
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[41.3690306, -19.2622538]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Edge",
+        "id": 6,
+        "layerId": 143771121,
+        "length": ""
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [41.3690306, -19.2622538],
+          [39.3421878, -17.67456]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Edge",
+        "id": 7,
+        "layerId": 143771121,
+        "length": ""
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [48.192735, -16.694924],
+          [46.064549, -19.4649402],
+          [42.4500124, -23.3159382]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Edge",
+        "id": 8,
+        "layerId": 143771121,
+        "length": ""
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [39.5786518, -21.5255606],
+          [37.315345, -23.5186244]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Edge",
+        "id": 9,
+        "layerId": 143771121,
+        "length": ""
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [39.5786518, -21.5255606],
+          [38.0923012, -24.869853]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Edge",
+        "id": 10,
+        "layerId": 143771121,
+        "length": ""
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [39.5786518, -21.5255606],
+          [42.4500124, -23.3159382]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Edge",
+        "id": 11,
+        "layerId": 143771121,
+        "length": ""
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [42.4500124, -23.3159382],
+          [42.4162322, -27.268283]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Edge",
+        "id": 12,
+        "layerId": 143771121,
+        "length": ""
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [46.064549, -19.4649402],
+          [45.3551546, -23.4848416],
+          [48.6656654, -28.112801],
+          [52.2464206, -30.4098892]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Edge",
+        "id": 13,
+        "layerId": 143771121,
+        "length": "Nord Stream"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [57.3810878, -7.1349792],
+          [52.5166646, -9.837437],
+          [50.827629, -13.3506304],
+          [47.9224856, -15.2085708]
+        ]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Node",
+        "nameGRS": "Рига",
+        "id": 112419125,
+        "type": 8000,
+        "layerId": 143771121
+      },
+      "geometry": { "type": "Point", "coordinates": [55.4893658, -11.3575684] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Node",
+        "nameGRS": "Грайфсвальд",
+        "id": 112419125,
+        "type": 8000,
+        "layerId": 143771121
+      },
+      "geometry": { "type": "Point", "coordinates": [47.9224856, -15.2085708] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Node",
+        "nameGRS": "Выборг",
+        "id": 112419125,
+        "type": 8000,
+        "layerId": 143771121
+      },
+      "geometry": { "type": "Point", "coordinates": [57.3810878, -7.1349792] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Node",
+        "nameGRS": "",
+        "id": 112419125,
+        "type": -8000,
+        "layerId": 143771121
+      },
+      "geometry": { "type": "Point", "coordinates": [52.5166646, -9.837437] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Node",
+        "nameGRS": "",
+        "id": 112419125,
+        "type": -8000,
+        "layerId": 143771121
+      },
+      "geometry": { "type": "Point", "coordinates": [50.827629, -13.3506304] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Node",
+        "nameGRS": "Минск",
+        "id": 112419125,
+        "type": 8000,
+        "layerId": 143771121
+      },
+      "geometry": { "type": "Point", "coordinates": [57.6175518, -14.6680786] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Node",
+        "nameGRS": "Берлин",
+        "id": 112419125,
+        "type": 8000,
+        "layerId": 143771121
+      },
+      "geometry": { "type": "Point", "coordinates": [48.192735, -16.694924] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Node",
+        "nameGRS": "",
+        "id": 112419125,
+        "type": -8000,
+        "layerId": 143771121
+      },
+      "geometry": { "type": "Point", "coordinates": [43.801241, -17.235411] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Node",
+        "nameGRS": "Брюссель",
+        "id": 112419125,
+        "type": 8000,
+        "layerId": 143771121
+      },
+      "geometry": { "type": "Point", "coordinates": [41.3690306, -19.2622538] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Node",
+        "nameGRS": "Париж",
+        "id": 112419125,
+        "type": 8000,
+        "layerId": 143771121
+      },
+      "geometry": { "type": "Point", "coordinates": [39.5786518, -21.5255606] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Node",
+        "nameGRS": "",
+        "id": 112419125,
+        "type": -8000,
+        "layerId": 143771121
+      },
+      "geometry": { "type": "Point", "coordinates": [37.315345, -23.5186244] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Node",
+        "nameGRS": "",
+        "id": 112419125,
+        "type": -8000,
+        "layerId": 143771121
+      },
+      "geometry": { "type": "Point", "coordinates": [38.0923012, -24.869853] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Node",
+        "nameGRS": "Великобртания",
+        "id": 112419125,
+        "type": 8000,
+        "layerId": 143771121
+      },
+      "geometry": { "type": "Point", "coordinates": [39.3421878, -17.67456] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Node",
+        "nameGRS": "",
+        "id": 112419125,
+        "type": -8000,
+        "layerId": 143771121
+      },
+      "geometry": { "type": "Point", "coordinates": [42.4500124, -23.3159382] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Node",
+        "nameGRS": "Марсель",
+        "id": 112419125,
+        "type": 8000,
+        "layerId": 143771121
+      },
+      "geometry": { "type": "Point", "coordinates": [42.4162322, -27.268283] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Node",
+        "nameGRS": "",
+        "id": 112419125,
+        "type": -8000,
+        "layerId": 143771121
+      },
+      "geometry": { "type": "Point", "coordinates": [46.064549, -19.4649402] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Node",
+        "nameGRS": "Швейцария",
+        "id": 112419125,
+        "type": 8000,
+        "layerId": 143771121
+      },
+      "geometry": { "type": "Point", "coordinates": [45.3551546, -23.4848416] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Node",
+        "nameGRS": "Рим",
+        "id": 112419125,
+        "type": -8000,
+        "layerId": 143771121
+      },
+      "geometry": { "type": "Point", "coordinates": [48.6656654, -28.112801] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Node",
+        "nameGRS": "",
+        "id": 112419125,
+        "type": -8000,
+        "layerId": 143771121
+      },
+      "geometry": { "type": "Point", "coordinates": [52.2464206, -30.4098892] }
+    }
+  ]
+}

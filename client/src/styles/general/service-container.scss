@@ -1,0 +1,27 @@
+@import '../variables/sizes.scss';
+
+.service-container {
+	position: relative;
+	&__image{
+		position: absolute;
+		top: 0;
+		left: 40%;
+		z-index: -1;
+	}
+&__list{
+	display: flex;
+	gap: $padding-md;
+}
+&__item{
+	display: flex;
+	width: 33.333%;
+	cursor: pointer;
+}
+&__title{
+	margin-bottom: 12px;
+	color:rgba(0,0,0,0.66);
+	font-size: 18px;
+	font-weight: 400;
+}
+}
+

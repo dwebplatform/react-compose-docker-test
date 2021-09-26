@@ -1,0 +1,77 @@
+
+@import '../variables/sizes.scss';
+@import '../variables/colors.scss';
+.top-nav{
+  display: flex;
+  &__left-title{
+    user-select: none;
+  }
+  &__left{
+    display: flex;
+    align-items: center;
+    gap: $padding-sm;
+    height: 48px;
+    line-height: 58px;
+    padding: 0 12px;
+  }
+  &__left-icon-wrapper{
+    position: relative;
+    display: flex;
+  }
+  &__left-icon-cirle{
+    position: absolute;
+    top: 50%; 
+    left: 92%;
+    transform: translate(-50%,-50%);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(255,255,255,0.3);
+  }
+  &__left-item{
+   display: flex;
+   gap: $padding-lg; 
+   align-items: center;
+  }
+  &__left-icon.MuiSvgIcon-root{
+    color: $color-typo-brand;
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    position: relative;
+    flex:1;
+    left: 10px;
+  }
+}
+
+.MuiPaper-root.top-nav {
+  background: $color-bg-base !important;
+  flex: 1; 
+}
+
+
+.top-nav-wrapper{
+  position: relative;
+}
+
+.slided-menu{
+  position: absolute;
+  width: 307px;
+  height: 100vh;
+  left: -100%;
+  transition: 0.5s;
+  z-index: 10;
+  background-color: #fff;
+  &--on{
+    left: 0%;
+  }
+  &-shadow{
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.29);
+    width: 100vw;
+    height: 100vh;
+  }
+}

@@ -1,0 +1,53 @@
+@import '../variables/colors';
+@import '../variables/sizes';
+
+.basic-menu__link{
+  text-decoration: none;
+  margin-bottom:  $padding-lg;
+  &--active{
+    .basic-menu__body-text{
+      color: $color-bg-base;
+      
+    }
+    .basic-menu__icon{
+      fill: $color-bg-base;
+    }
+  }
+}
+
+
+
+.basic-menu{
+  &__link--last{
+    margin-bottom: 6px;
+  }
+  &-wrapper {
+    display: flex;
+    flex-flow: column;
+    padding-top: 6px;
+  }
+  &__icon{
+    fill: $color-grey;
+    &--home {
+      fill: $color-grey;
+    }
+  }
+
+  &__icon-wrapper.MuiBox-root{
+    width: 64px;
+    min-width: 64px;
+    display: flex;
+    justify-content: center;
+  }
+  
+	&__item{
+		display: flex;
+		align-items: center;
+    height: 44px;
+    &:hover{
+      background-color: $color-bg-secondary;
+    }
+  }	
+  
+}
+

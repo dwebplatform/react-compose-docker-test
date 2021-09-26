@@ -1,0 +1,42 @@
+@import '../variables/sizes.scss';
+@import '../variables/colors.scss';
+
+.ui-text{
+  color: $color-typo-base;
+  &__basic{
+    font-weight: normal;
+    font-size: $size-basic;
+  }
+  &__brand{
+    color: $color-typo-brand;
+  }
+  &__secondary{
+    color: $color-typo-second;
+  }
+  
+  &__small{
+    font-size: $size-sm;
+  }
+  &__middle{
+    font-size: $size-md;
+  }
+  &__large{
+    font-size: $size-lg;
+  }
+  
+  &__slim {
+    font-weight: 400;
+  }
+  &__normal {
+    font-weight: normal;
+  }
+  &__normal-up {
+    font-weight: 500;
+  }
+  &__bold{
+    font-weight: 700;
+  }
+  &__capitalized{
+    text-transform: uppercase;
+  }
+}
